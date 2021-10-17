@@ -58,3 +58,32 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.sidebar {
+  width: 300px;
+  height: auto;
+  flex: 0 0 auto;
+  padding: 16px;
+}
+
+ul,
+li,
+li a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+}
+
+.content {
+  padding: 32px;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+}
